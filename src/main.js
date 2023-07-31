@@ -8,14 +8,8 @@ import App from './App.vue'
 import "./api/mock.js"
 
 import Cookie from 'js-cookie'
-
 // // 按需引入
 // Vue.use(Row)
-// Vue.use(Button)
-// Vue.use(Container)
-// Vue.use(Aside)
-// Vue.use(Header)
-// Vue.use(Main)
 
 Vue.use(ElementUI)
 

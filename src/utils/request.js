@@ -4,6 +4,7 @@ const http = axios.create({
     // 通全请求地址前缀
     baseURL: '/api',
     timeout: 10000,  // 超时时间
+    // headers:{'X-Custom-Header': 'foobar'}
 })
 
 http.interceptors.request.use(function (config) {
